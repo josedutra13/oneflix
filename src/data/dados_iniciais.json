@@ -1,0 +1,126 @@
+{
+  "categorias": [
+    {
+      "titulo": "Tripulação",
+      "link": "https://www.alura.com.br/formacao-front-end",
+      "cor": "#6BD1FF",
+      "link_extra": {
+        "text": "Alguns dos seus feitos",
+        "url": "https://www.youtube.com/watch?v=9kYdfBBV89k"
+      },
+      "videos": [
+        {
+          "titulo": "Ele será o Rei dos Piratas!!",
+          "url": "https://www.youtube.com/watch?v=12A7UQZ60p0"
+        },
+        {
+          "titulo": "Zoro",
+          "url": "https://www.youtube.com/watch?v=12JwimgYHm0"
+        },
+        {
+          "titulo": "Nami",
+          "url": "https://www.youtube.com/watch?v=B4Loy8UU3V4"
+        },
+        {
+          "titulo": "Usopp",
+          "url": "https://www.youtube.com/watch?v=ATmwwtIyHFk"
+        },
+        {
+          "titulo": "Sanji",
+          "url": "https://www.youtube.com/watch?v=gGQabjW2dvA"
+        },
+        {
+          "titulo": "Chopper",
+          "url": "https://www.youtube.com/watch?v=avkV09mKwew"
+        },
+        {
+          "titulo": "Franky",
+          "url": "https://www.youtube.com/watch?v=TzhG2XNnQ2k"
+        },
+        {
+          "titulo": "Robin",
+          "url": "https://www.youtube.com/watch?v=v9qAGNccO78"
+        },
+        {
+          "titulo": "Brook",
+          "url": "https://www.youtube.com/watch?v=INDB4Yhgvus"
+        }, 
+         {
+          "titulo": "Jimbe",
+          "url": "https://www.youtube.com/watch?v=cDc2SlsXb9k"
+        }               
+      ]
+    },
+    {
+      "titulo": "Batalhas épicas do Rei",
+      "cor": "#00C86F",
+      "link_extra": {
+        "text": "Melhores lutas",
+        "url": "https://www.youtube.com/watch?v=nkPDsGs1ZPA"
+      },
+      "videos": [
+        {
+          "titulo": "Luffy vs Luccy",
+          "url": "https://www.youtube.com/watch?v=gFrgbfZ5Q3Y"
+        },
+        {
+          "titulo": "Luffy Marineford",
+          "url": "https://www.youtube.com/watch?v=WyAJaR82eo4"
+        },
+        {
+          "titulo": "Luffy vs Doflamingo",
+          "url": "https://www.youtube.com/watch?v=Mqh0KeCGSS8&t=86s"
+        },
+        {
+          "titulo": "Luffy vs Katakuri",
+          "url": "https://www.youtube.com/watch?v=wz1H3jxl_tA&t=11s"
+        }
+
+      ]
+    },
+    {
+      "titulo": "Filmes",
+      "cor": "orange",
+      "videos": [
+        {
+          "titulo": "One piece: Z",
+          "url": "https://www.youtube.com/watch?v=1gGt1Mg_zSo"
+        },
+        {
+          "titulo": "One piece 3D2Y",
+          "url": "https://www.youtube.com/watch?v=ylh4so3tg5g"
+        },
+        {
+          "titulo": "One piece Gold",
+          "url": "https://www.youtube.com/watch?v=YwPVKV0jEvc"
+        },
+        {
+          "titulo": "One piece Stampede",
+          "url": "https://www.youtube.com/watch?v=S8_YwFLCh4U"
+        }
+      ]
+    },
+    {
+      "titulo": "Games",
+      "cor": "red",
+      "videos": [
+        {
+          "titulo": "One Piece: Pirate Warriors",
+          "url": "https://www.youtube.com/watch?v=ucFMyJFLDxE"
+        },
+        {
+          "titulo": "One Piece: Pirate Warriors 2",
+          "url": "https://www.youtube.com/watch?v=oo-3Ek_-BaM"
+        },
+        {
+          "titulo": "One Piece: Pirate Warriors 3",
+          "url": "https://www.youtube.com/watch?v=mmO9zCEgAHY"
+        },
+        {
+          "titulo": "One Piece: Pirate Warriors 4",
+          "url": "https://www.youtube.com/watch?v=Oe_vm7oCdIA"
+        }
+      ]
+    }
+  ]
+}
