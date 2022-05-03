@@ -1,16 +1,173 @@
 {
-    "categorias":[
-        {
-            "id": 1,
-            "nome": "Front End",
-            "descricao": "Uma categoria bacana",
-            "cor": "#cdb1ff"
-        },
-        {
-            "id": 2,
-            "nome": "Back End",
-            "descricao": "Uma categoria bacana",
-            "cor": "#cdb1ff"
-        }
-    ]
+  "categorias": [
+    {
+      "id": 1,
+      "titulo": "Tripulação",
+      "link": "https://www.alura.com.br/formacao-front-end",
+      "cor": "#6BD1FF",
+      "link_extra": {
+        "text": "Alguns dos seus feitos",
+        "url": "https://www.youtube.com/watch?v=9kYdfBBV89k"
+      }
+    },
+    {
+      "id": 2,
+      "titulo": "Batalhas épicas do Rei",
+      "cor": "#00C86F",
+      "link_extra": {
+        "text": "Melhores lutas",
+        "url": "https://www.youtube.com/watch?v=nkPDsGs1ZPA"
+      }
+    },
+    {
+      "id": 3,
+      "titulo": "Filmes",
+      "cor": "orange"
+    },
+    {
+      "id": 4,
+      "titulo": "Games",
+      "cor": "red"
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "categoriaId": 1,
+      "titulo": "Ele será o Rei dos Piratas!!",
+      "url": "https://www.youtube.com/watch?v=12A7UQZ60p0"
+    },
+    {
+      "id": 2,
+      "categoriaId": 1,
+      "titulo": "Zoro",
+      "url": "https://www.youtube.com/watch?v=12JwimgYHm0"
+    },
+    {
+      "id": 3,
+      "categoriaId": 1,
+      "titulo": "Nami",
+      "url": "https://www.youtube.com/watch?v=B4Loy8UU3V4"
+    },
+    {
+      "id": 4,
+      "categoriaId": 1,
+      "titulo": "Usopp",
+      "url": "https://www.youtube.com/watch?v=ATmwwtIyHFk"
+    },
+    {
+      "id": 5,
+      "categoriaId": 1,
+      "titulo": "Sanji",
+      "url": "https://www.youtube.com/watch?v=gGQabjW2dvA"
+    },
+    {
+      "id": 6,
+      "categoriaId": 1,
+      "titulo": "Chopper",
+      "url": "https://www.youtube.com/watch?v=avkV09mKwew"
+    },
+    {
+      "id": 7,
+      "categoriaId": 1,
+      "titulo": "Franky",
+      "url": "https://www.youtube.com/watch?v=TzhG2XNnQ2k"
+    },
+    {
+      "id": 8,
+      "categoriaId": 1,
+      "titulo": "Robin",
+      "url": "https://www.youtube.com/watch?v=v9qAGNccO78"
+    },
+    {
+      "id": 9,
+      "categoriaId": 1,
+      "titulo": "Brook",
+      "url": "https://www.youtube.com/watch?v=INDB4Yhgvus"
+    },
+    {
+      "id": 10,
+      "categoriaId": 1,
+      "titulo": "Jimbe",
+      "url": "https://www.youtube.com/watch?v=cDc2SlsXb9k"
+    },
+    {
+      "id": 11,
+      "categoriaId": 2,
+      "titulo": "Luffy vs Luccy",
+      "url": "https://www.youtube.com/watch?v=gFrgbfZ5Q3Y"
+    },
+    {
+      "id": 12,
+      "categoriaId": 2,
+      "titulo": "Luffy Marineford",
+      "url": "https://www.youtube.com/watch?v=WyAJaR82eo4"
+    },
+    {
+      "id": 13,
+      "categoriaId": 2,
+      "titulo": "Luffy vs Doflamingo",
+      "url": "https://www.youtube.com/watch?v=Mqh0KeCGSS8&t=86s"
+    },
+    {
+      "id": 14,
+      "categoriaId": 2,
+      "titulo": "Luffy vs Katakuri",
+      "url": "https://www.youtube.com/watch?v=wz1H3jxl_tA&t=11s"
+    },
+    {
+      "id": 15,
+      "categoriaId": 3,
+      "titulo": "One piece: Z",
+      "url": "https://www.youtube.com/watch?v=1gGt1Mg_zSo"
+    },
+    {
+      "id": 16,
+      "categoriaId": 3,
+      "titulo": "One piece 3D2Y",
+      "url": "https://www.youtube.com/watch?v=ylh4so3tg5g"
+    },
+    {
+      "id": 17,
+      "categoriaId": 3,
+      "titulo": "One piece Gold",
+      "url": "https://www.youtube.com/watch?v=YwPVKV0jEvc"
+    },
+    {
+      "id": 18,
+      "categoriaId": 3,
+      "titulo": "One piece Stampede",
+      "url": "https://www.youtube.com/watch?v=S8_YwFLCh4U"
+    },
+    {
+      "id": 19,
+      "categoriaId": 4,
+      "titulo": "One Piece: Pirate Warriors",
+      "url": "https://www.youtube.com/watch?v=ucFMyJFLDxE"
+    },
+    {
+      "id": 20,
+      "categoriaId": 4,
+      "titulo": "One Piece: Pirate Warriors 2",
+      "url": "https://www.youtube.com/watch?v=oo-3Ek_-BaM"
+    },
+    {
+      "id": 21,
+      "categoriaId": 4,
+      "titulo": "One Piece: Pirate Warriors 3",
+      "url": "https://www.youtube.com/watch?v=mmO9zCEgAHY"
+    },
+    {
+      "id": 22,
+      "categoriaId": 4,
+      "titulo": "One Piece: Pirate Warriors 4",
+      "url": "https://www.youtube.com/watch?v=Oe_vm7oCdIA"
+    },
+    {
+      "titulo": "Video Padrão",
+      "url": "https://www.youtube.com/watch?v=eYuI4krrKBM",
+      "categoriaId": 1,
+      "id": 23
+    }
+  ]
 }
