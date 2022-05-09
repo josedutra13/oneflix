@@ -1,10 +1,13 @@
 import React, { useCallback, useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
-import Button from '../../../components/Button';
+// import { Link } from 'react-router-dom';
+import { ButtonForm, ButtonWraper } from '../../../components/Button';
 import FormField from '../../../components/FormField';
 import PageDefault from '../../../components/PageDefault';
 import useForm from '../../../hooks/formHooks';
-import { createNewCategory, getAllCategory } from '../../../repositories/categorias';
+import {
+  createNewCategory, getAllCategory,
+} from '../../../repositories/categorias';
+import Table from '../../../components/Table';
 
 function CadastroCategoria() {
   const valorInicialCategoria = {
@@ -13,7 +16,9 @@ function CadastroCategoria() {
     cor: '',
   };
 
-  const { handleChange, valores, clearValoresCateoria } = useForm(valorInicialCategoria);
+  const {
+    handleChange, valores, clearValoresCateoria,
+  } = useForm(valorInicialCategoria);
 
   const [categorias, setCategorias] = useState([]);
 
@@ -30,6 +35,12 @@ function CadastroCategoria() {
       console.log('preencha os dados');
     }
   });
+
+  // const updateCateg = useCallback((event, id) => {
+  //   console.log(id);
+  //   getCategory(id).then((res) => { setValoress({ ...valores, res }); });
+  //   // updateCategory(valores, id).then((res) => setCategorias([...categorias, res]));
+  // });
 
   return (
     <PageDefault>
@@ -59,10 +70,14 @@ function CadastroCategoria() {
           type="color"
           onChange={handleChange}
         />
-
-        <Button>
-          Cadastrar
-        </Button>
+        <ButtonWraper>
+          <ButtonForm register type="submit">
+            Cadastrar
+          </ButtonForm>
+          <ButtonForm onClick={clearValoresCateoria}>
+            Limpar
+          </ButtonForm>
+        </ButtonWraper>
       </form>
 
       {
@@ -73,13 +88,11 @@ function CadastroCategoria() {
         )
       }
 
-      <ul>
-        {categorias.map((categoria) => <li key={`${categoria.titulo}`}>{categoria.titulo}</li>)}
-      </ul>
+      <Table values={categorias} valorInicialCategoria={valorInicialCategoria} />
 
-      <Link to="/">
+      {/* <Link to="/">
         Voltar pra home
-      </Link>
+      </Link> */}
     </PageDefault>
   );
 }

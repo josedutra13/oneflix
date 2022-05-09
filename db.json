@@ -5,29 +5,25 @@
       "titulo": "Tripulação",
       "link": "https://www.alura.com.br/formacao-front-end",
       "cor": "#6BD1FF",
-      "link_extra": {
-        "text": "Alguns dos seus feitos",
-        "url": "https://www.youtube.com/watch?v=9kYdfBBV89k"
-      }
+      "descricao": "Feitos da Tripulação"
     },
     {
       "id": 2,
       "titulo": "Batalhas épicas do Rei",
       "cor": "#00C86F",
-      "link_extra": {
-        "text": "Melhores lutas",
-        "url": "https://www.youtube.com/watch?v=nkPDsGs1ZPA"
-      }
+      "descricao": "Melhores lutas"
     },
     {
       "id": 3,
       "titulo": "Filmes",
-      "cor": "orange"
+      "cor": "orange",
+      "descricao": "Alguns filmes"
     },
     {
       "id": 4,
       "titulo": "Games",
-      "cor": "red"
+      "cor": "red",
+      "descricao": "Alguns jogos"
     }
   ],
   "videos": [
@@ -162,12 +158,6 @@
       "categoriaId": 4,
       "titulo": "One Piece: Pirate Warriors 4",
       "url": "https://www.youtube.com/watch?v=Oe_vm7oCdIA"
-    },
-    {
-      "titulo": "Video Padrão",
-      "url": "https://www.youtube.com/watch?v=eYuI4krrKBM",
-      "categoriaId": 1,
-      "id": 23
     }
   ]
 }

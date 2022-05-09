@@ -34,7 +34,7 @@ PageDefault.defaultProps = {
 };
 
 PageDefault.propTypes = {
-  children: PropsType.element.isRequired,
+  children: PropsType.arrayOf(PropsType.shape()).isRequired,
   paddingAll: PropsType.number,
 };
 

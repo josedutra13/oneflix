@@ -45,15 +45,22 @@ export const Input = styled.input`
   border-bottom: 4px solid #53585D;
   
   padding: 16px 16px;
-  margin-bottom: 45px;
+  margin-bottom: ${({ error }) => (error ? '0' : '30px')};
   
   resize: none;
   border-radius: 4px;
   transition: border-color .3s;
 
   &:focus {
-    border-bottom-color: var(--primary);
+    border-bottom-color: var(--primary) ;
   }
+
+  ${({ error }) => error && css`
+    border-bottom-color: red ;
+    &:focus{
+      border-bottom-color: red ;
+    }
+    `}
 
   &:focus:not([type='color']) + ${Label.Text} {
     transform: scale(.6) translateY(-10px);
@@ -61,6 +68,7 @@ export const Input = styled.input`
 
   ${({ value }) => {
     const hasValue = value.length > 0;
+
     return hasValue && css`
         &:not([type='color']) + ${Label.Text} {
           transform: scale(.6) translateY(-10px);
@@ -68,3 +76,9 @@ export const Input = styled.input`
       `;
   }}
   `;
+
+export const Span = styled.div`
+  color: red;
+  margin-top:5px;
+  margin-bottom: 20px;
+`;

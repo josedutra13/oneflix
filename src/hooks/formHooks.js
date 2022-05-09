@@ -12,7 +12,8 @@ function useForm(valorInicialCategoria) {
     );
   }
 
-  function clearValoresCateoria() {
+  function clearValoresCateoria(event) {
+    event.preventDefault();
     setValoress(valorInicialCategoria);
   }
 
@@ -23,7 +24,9 @@ function useForm(valorInicialCategoria) {
     );
   });
 
-  return { handleChange, valores, clearValoresCateoria };
+  return {
+    handleChange, valores, clearValoresCateoria, setValores,
+  };
 }
 
 export default useForm;
