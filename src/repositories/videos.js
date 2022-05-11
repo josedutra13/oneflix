@@ -18,4 +18,16 @@ function createNewVideo(valoresVideo) {
   });
 }
 
-export default createNewVideo;
+function deleteVideo(id) {
+  return fetch(`${URL_VIDEOS}/${id}`, {
+    method: 'DELETE',
+  }).then(async (res) => {
+    if (res.ok) {
+      const response = await res.json();
+      return response;
+    }
+    throw new Error(`ERROR AO DELETAR ${res.status}`);
+  });
+}
+
+export { createNewVideo, deleteVideo };

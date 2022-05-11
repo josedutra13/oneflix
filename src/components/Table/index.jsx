@@ -16,7 +16,6 @@ function Table({ values, valorInicialCategoria }) {
       console.log(res);
       setValores(res);
     });
-    // console.log('CAIU AQUI');
   }
 
   return (

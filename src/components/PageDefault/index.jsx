@@ -13,7 +13,26 @@ const Main = styled.main`
      padding: ${paddingAll};
    ` : css`
      padding: 50px 5% 0 5%;
-   `)} 
+   `)}
+
+   .history{
+     padding-right:20px;
+     margin-left: 20px;
+     text-decoration: none;
+     font-size: 20px;
+     font-weight: bold;
+   }
+
+   .history .icon{
+     padding-right:10px;
+   }
+
+   @media (max-width: 800px){
+     .history{
+       margin-top: 10px ;
+       margin-left: 15px; 
+     }
+   }
 `;
 
 function PageDefault({ children, paddingAll }) {

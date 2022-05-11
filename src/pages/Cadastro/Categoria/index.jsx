@@ -36,12 +36,6 @@ function CadastroCategoria() {
     }
   });
 
-  // const updateCateg = useCallback((event, id) => {
-  //   console.log(id);
-  //   getCategory(id).then((res) => { setValoress({ ...valores, res }); });
-  //   // updateCategory(valores, id).then((res) => setCategorias([...categorias, res]));
-  // });
-
   return (
     <PageDefault>
       <h1 style={{ textAlign: 'center' }}>Nova Categoria</h1>

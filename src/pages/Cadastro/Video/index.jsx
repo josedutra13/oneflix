@@ -2,10 +2,12 @@ import React, { useState, useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useFormik } from 'formik';
 // import useForm from '../../../hooks/formHooks';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHistory } from '@fortawesome/free-solid-svg-icons';
 import { ButtonForm, ButtonWraper } from '../../../components/Button';
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
-import createNewVideo from '../../../repositories/videos';
+import { createNewVideo } from '../../../repositories/videos';
 import { getAllCategory } from '../../../repositories/categorias';
 import isYoutubeVideo from './validateUrl';
 
@@ -90,13 +92,16 @@ function CadastroVideo() {
           <ButtonForm type="button" onClick={formik.resetForm}>
             Limpar
           </ButtonForm>
+
         </ButtonWraper>
-
       </form>
-
-      <Link to="/cadastro/categoria">
-        Cadastrar Categoria
+      <Link className="history" to="/cadastro/video/historico">
+        <FontAwesomeIcon className="icon" icon={faHistory} />
+        History
       </Link>
+      {/* <Link to="/cadastro/categoria">
+        Cadastrar Categoria
+      </Link> */}
     </PageDefault>
   );
 }

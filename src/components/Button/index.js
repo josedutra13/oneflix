@@ -24,29 +24,25 @@ const Button = styled.button`
 const ButtonWraper = styled.div`
   display:flex;
   flex-direction: row;
-  /* justify-content: space-between; */
+  padding-bottom: 20px;
 `;
 
 const ButtonForm = styled.button`
-   color: ${(props) => (props.register ? 'var(--white)' : 'var(--black)')};
-   background-color: ${(props) => (props.register ? 'var(--primary)' : 'var(--grayMedium)')};
+   color: ${(props) => (props.register ? 'var(--white)' : 'var(--white)')};
+   background-color: ${(props) => (props.register ? 'var(--primary)' : 'var(--black)')};
    box-sizing: border-box;
    cursor: pointer;
    font-size: 18px;
    font-style: normal;
    font-weight: bold;
    outline:none;
-   border:none;
+   border:${(props) => (props.register ? 'none' : '1px solid white')};
    margin-right: 15px;
    border-radius: 5px;
    text-decoration: none;
    display: inline;
    width: 180px;
    height: 54px;
-
-   @media (max-width: 800px){
-      
-   }
 `;
 
 export {
